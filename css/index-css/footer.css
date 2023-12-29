@@ -1,0 +1,19 @@
+footer{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    background-color: rgb(80,80,80);
+    width: 100vw;
+    height: 6vh;
+    font-size: large;
+}
+footer a{
+    text-decoration: none;
+    color: azure;
+    background-color: black;
+    width: 6vh;
+    height: 6vh;
+    
+}
