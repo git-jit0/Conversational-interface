@@ -1,25 +1,28 @@
 header{
     display: flex;
     justify-content: flex-end;
-    position: absolute;
+    position: fixed;
     top: 0;
     z-index: 1;
     background-color: rgb(80,80,80);
     width: 100vw;
-    height: 7vh;
+    height: 6vh;
     font-size: large;
 }
 #search_bar{
     min-width: 300px;
     width: 80vw;
-    height: 6vh;
+    height: 5vh;
     margin: auto 0;
     border-radius: 10px 0px 0px 10px;
     color: black;
 }
-#search_button{
-    width: 20 vw;
-    height: 6vh;
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+    height: 5vh;
     margin: auto 3vw auto 0px;
     border-radius: 0px 10px 10px 0px;
     background-color: rgb(68, 111, 160);
