@@ -1,7 +1,8 @@
 *{
     margin: 0;
-    border: 0;
+    border:0;
     padding: 0;
     box-sizing: content-box;
     font-size: large;
+    color: rgb(214, 221, 224);
 }

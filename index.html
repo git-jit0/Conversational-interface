@@ -4,23 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping site</title>
-    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/global.css"><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="/css/index-css/footer.css">
     <link rel="stylesheet" href="/css/index-css/header.css">
 </head>
 <body>
     <header>
-            <input type="text" class="search_bar" placeholder="search">
-            <input type="button" value="search" >
+            <input id="search_bar" type="text" placeholder="search">
+            <input id="search_button" type="button" value="search" >
     </header>
     <main>
 
     </main>
     <footer>
-        <a href="#">profile</a>
-        <a href="#">menu</a>
-        <a href="#">cart</a>
-        <a href="#">more</a>
+        <a href="#" class="nav__link">
+            <span class="material-symbols-outlined">home</span>  
+            <span class="nav__text">home</span>
+        </a>
+
+        <a href="#" class="nav__link">
+            <span class="material-symbols-outlined">person</span>  
+            <span class="nav__text">profile</span>
+        </a>
+
+        <a href="#" class="nav__link">
+            <span class="material-symbols-outlined">shopping_cart</span>  
+            <span class="nav__text">cart</span>
+        </a>
+        
+        <a href="#" class="nav__link">
+            <span class="material-symbols-outlined">more_horiz</span>  
+            <span class="nav__text">More</span>
+        </a>
+        
     </footer>
 </body>
 </html>
