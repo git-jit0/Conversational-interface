@@ -1,0 +1,14 @@
+.product__banner{
+    display: flex;
+    width: 90vw;
+    height: 150px;
+    border: 1px solid black;
+    overflow-x: auto;
+    white-space: nowrap ;
+    margin: 80px auto 0pc auto;
+}
+#banner1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
