@@ -1,6 +1,7 @@
 header{
     display: flex;
     justify-content: center;
+    align-items: center;
     position: fixed;
     top: 0;
     z-index: 1;
@@ -20,12 +21,27 @@ header{
 }
 #search__bar:focus {
     outline: none;
+    width: calc(70vw - 10vw);
 
 }
 #search__bar:focus::placeholder {
     opacity: 0;
 }
+.clear-input {
+    display: none; 
+    text-decoration: none;
+}
 
+
+#search__bar:focus + .clear-input {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 10vw;
+    height: 5vh;
+    color: rgb(68, 111, 160);
+}
 
 .search{
     display: flex;
