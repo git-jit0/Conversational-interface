@@ -18,9 +18,9 @@
     <main>
 
         <div class="product__banner">
-            <img id="banner1" src="banner1.png" alt="banner1">
-            <img id="banner2" src="banner2.png" alt="banner2">
-            <img id="banner3" src="banner3.png" alt="banner3">
+            <img id="banner1" src="/product_images/banner1.jpg" alt="banner1">
+            <img id="banner2" src="/product_images/banner2.jpg" alt="banner2">
+            <img id="banner3" src="/product_images/banner3.jpg" alt="banner3">
         </div>
 
         <div class="product__column">
@@ -57,26 +57,30 @@
         </div>
     </main>
     <footer>
-        <a href="#" class="nav__link">
+        <a href="#" class="nav__link selected" onclick="selectLink(this)">
+            <span class="bar"></span>
             <span class="material-icons">home</span>  
             <span class="nav__text">home</span>
         </a>
     
-        <a href="#" class="nav__link">
+        <a href="#" class="nav__link" onclick="selectLink(this)">
+            <span class="bar"></span>
             <span class="material-icons">person</span>  
             <span class="nav__text">profile</span>
         </a>
     
-        <a href="#" class="nav__link">
+        <a href="#" class="nav__link" onclick="selectLink(this)">
+            <span class="bar"></span>
             <span class="material-icons">shopping_cart</span>  
             <span class="nav__text">cart</span>
         </a>
         
-        <a href="#" class="nav__link">
+        <a href="#" class="nav__link" onclick="selectLink(this)">
+            <span class="bar"></span>
             <span class="material-icons">more_horiz</span>  
             <span class="nav__text">More</span>
         </a>
     </footer>
-    
+    <script src="/JS/footer.js"></script>
 </body>
 </html>
