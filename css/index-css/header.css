@@ -1,6 +1,6 @@
 header{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     position: fixed;
     top: 0;
     z-index: 1;
@@ -9,21 +9,33 @@ header{
     height: 6vh;
     font-size: large;
 }
-#search_bar{
-    min-width: 300px;
-    width: 80vw;
+#search__bar{
+    max-width: 450px;
+    width: 70vw;
     height: 5vh;
     margin: auto 0;
     border-radius: 10px 0px 0px 10px;
     color: black;
+    padding-left: 15px;
 }
+#search__bar:focus {
+    outline: none;
+
+}
+#search__bar:focus::placeholder {
+    opacity: 0;
+}
+
+
 .search{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 10vw;
+    width: 50px;
     height: 5vh;
-    margin: auto 3vw auto 0px;
+    margin: auto 0px auto 0px;
     border-radius: 0px 10px 10px 0px;
     background-color: rgb(68, 111, 160);
+    color: rgb(214,221,224);
+    text-decoration: none;
 }
