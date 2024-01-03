@@ -1,4 +1,4 @@
-footer{
+.nav__bar{
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -7,10 +7,10 @@ footer{
     z-index: 1;
     background-color: rgb(81,85,91);
     width: 100vw;
-    height: 7vh;
+    height: 6vh;
     font-size: large;
 }
-footer a:hover{
+.nav__bar a:hover{
     cursor: pointer;
 }
 .nav__link{
