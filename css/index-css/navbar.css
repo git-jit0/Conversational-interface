@@ -8,7 +8,6 @@
     background-color: rgb(81,85,91);
     width: 100vw;
     height: 6vh;
-    font-size: large;
 }
 .nav__bar a:hover{
     cursor: pointer;
@@ -34,7 +33,7 @@
 }
 .nav__link.selected .bar,
 .nav__link:focus .bar {
-    background-color: rgb(214,221,224); 
+    background-color: rgb(214, 224, 221); 
     height: 4px;
     border-radius: 0px 0px 50px 50px;
 }
