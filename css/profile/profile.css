@@ -11,15 +11,16 @@
     width: 100vw;
     border-radius: 0px 0px 10px 10px;
 }
-#heading1{
-    margin-left: 10px;
-}
 #yes-notification,#no-notification{
     margin-right: 10px;
 }
 #yes-notification{
     display: none;
 }
+#heading1{
+    margin-left: 10px;
+}
+
 .extra__margin__top{
     height: 6vh;
 }
