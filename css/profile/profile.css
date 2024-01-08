@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(68,111,160);
+}
 .panel__heading{
     display: flex;
     align-items: center;
@@ -34,7 +37,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;  
 }
 .big__box{
     margin: 10px 0px;
@@ -55,9 +58,7 @@
     border-radius: 50px;
     background-color: rgb(68,111,160);
     color: rgb(214,221,224);
-}
-body{
-    background-color: rgb(34,60,96);
+    border: 1px solid black; 
 }
 .button{
     display: flex;

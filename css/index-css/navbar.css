@@ -8,6 +8,7 @@
     background-color: rgb(81,85,91);
     width: 100vw;
     height: 6vh;
+    border-radius: 10px 10px 0px 0px;
 }
 .nav__bar a:hover{
     cursor: pointer;

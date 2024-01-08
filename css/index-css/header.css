@@ -9,6 +9,7 @@ header{
     width: 100vw;
     height: 7vh;
     font-size: large;
+    border-radius: 0 0 10px 10px;
 }
 #search__bar{
     max-width: 450px;
